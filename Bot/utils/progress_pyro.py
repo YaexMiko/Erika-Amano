@@ -36,7 +36,7 @@ async def progress_for_pyrogram(current, total, ud_type, message, start):
                     ud_type,
                     tmp
                 ),
-                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Owner", url = 'https://t.me/sohailkhan_indianime')]]) #instead of reply_markup u can use parse_mode=ParseMode.MARKDOWN
+                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Owner", url = 'https://t.me/Yae_X_Miko')]]) #instead of reply_markup u can use parse_mode=ParseMode.MARKDOWN
             )
         except Exception as e:
             LOG.error(f'Senpai Error: {e}')            
