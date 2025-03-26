@@ -6,7 +6,7 @@ if os.path.exists('error.log'):
         
 #<-----------LOGGING------------>
 logging.basicConfig(level=logging.INFO, filename='error.log')
-LOG = logging.getLogger("Bot by @soheru")
+LOG = logging.getLogger("Bot by @Yae_X_Miko")
 LOG.setLevel(level=logging.INFO)
 #<-----------Variables-------------->
 LOG.info('❤️ Checking Bot Variables.....')
