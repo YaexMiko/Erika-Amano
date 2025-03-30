@@ -11,13 +11,13 @@ LOG.setLevel(level=logging.INFO)
 #<-----------Variables-------------->
 LOG.info('❤️ Checking Bot Variables.....')
 TRIGGERS = os.environ.get("TRIGGERS", "/ !").split(" ")
-BOT_TOKEN = os.environ.get('BOT_TOKEN', '7229171475:AAFia_aVyRd8nR6FEtrV9nFkOcTogMfYIJ4') #BOT Token Add
+BOT_TOKEN = os.environ.get('BOT_TOKEN', '8066028578:AAE0f8wgbClox9N5Lkh04Cq83w16WNzq8a0') #BOT Token Add
 API_ID = int(os.environ.get('API_ID', 24828197)) #Telgram Api id
 APP_HASH = os.environ.get('APP_HASH', 'd36e278e89ebeb900aeda4128d413a77')# Telgram App hash  
 OWNER_ID = int(os.environ.get('OWNER_ID', 8108281129))
 MONGO_DB = os.environ.get("MONGO_DB", 'mongodb+srv://ZeroTwo:aloksingh@zerotwo.3q3ij.mongodb.net/?retryWrites=true&w=majority') #MONGO DB FOR ANIME DATA
-FILES_CHANNEL = os.environ.get("FILES_CHANNEL", -1002414918127)    # Must Fill This ,Add Bot As Admin In Log Channel
-BOT_NAME = os.environ.get('BOT_NAME', 'Zero Test')
+FILES_CHANNEL = os.environ.get("FILES_CHANNEL", "-1002624736910")    # Must Fill This ,Add Bot As Admin In Log Channel
+BOT_NAME = os.environ.get('BOT_NAME', 'Alya')
 #<-----------Variables For 4GB Support (Optional)-------------->
 SESSION_STRING = os.environ.get("SESSION_STRING",'None')  #Replace None With String Session   Your String Session Account Must Be Present In Log Channel
 ubot = None  # Don't Touch This
