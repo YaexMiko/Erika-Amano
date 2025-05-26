@@ -10,7 +10,7 @@ if success != None:
     ubot.start()
 
 try:
-    encoder.send_message(OWNER_ID, text='Bot Started', reply_markup=IKM([[IKB('ʜᴇʟᴘ', 'answer_help'), IKB('ᴅᴇᴠᴇʟᴏᴘᴇʀ', 'answer_about_dev')]]))
+    encoder.send_message(OWNER_ID, text='🤖 Bot Started Successfully!\n\n✅ User approval system has been removed\n✅ All users can now access the bot immediately', reply_markup=IKM([[IKB('ʜᴇʟᴘ', 'answer_help'), IKB('ᴅᴇᴠᴇʟᴏᴘᴇʀ', 'answer_about_dev')]]))
 except:
     pass    
 
